@@ -1,0 +1,247 @@
+<html>
+ <head>
+  <title>
+   Trang Phim
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .nav {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .movie-info {
+            display: flex;
+            gap: 20px;
+        }
+        .movie-info img {
+            width: 400px;
+            height: 300px;
+            background: linear-gradient(to bottom, #f0f, #fff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 24px;
+        }
+        .movie-details {
+            max-width: 400px;
+        }
+        .movie-details h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .movie-details p {
+            margin: 5px 0;
+        }
+        .movie-details .rating {
+            color: green;
+            font-size: 18px;
+        }
+        .movie-details .stars {
+            color: gold;
+        }
+        .movie-details .tags {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .movie-details .tags button {
+            border: 1px solid #ccc;
+            background: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buttons .share {
+            background-color: #f0f0f0;
+        }
+        .buttons .download {
+            background-color: #ffcc00;
+        }
+        .buttons .watch {
+            background-color: #00aaff;
+            color: white;
+        }
+        .description {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .cast {
+            display: flex;
+            gap: 20px;
+        }
+        .cast .actor {
+            text-align: center;
+        }
+        .cast .actor img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #00aaff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Logo" height="50" src="https://storage.googleapis.com/a1aa/image/bXfsDhO1ceuj303ja8ScVFlqNogFWWlL35fIFz9LDIhE6JRnA.jpg" width="50"/>
+   <h1>
+    Hello Film
+   </h1>
+   <div class="nav">
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Top film
+    </a>
+    <a href="#">
+     Categories
+    </a>
+   </div>
+  </div>
+  <div class="content">
+   <div class="movie-info">
+    <img alt="Movie Image" height="300" src="https://storage.googleapis.com/a1aa/image/YtTbZpPwWD6lBVqOyxKuTHXBxyyjtwWAU1DtjfbVD7yhekoTA.jpg" width="400"/>
+    <div class="movie-details">
+     <h2>
+      Unknown Battle
+     </h2>
+     <p>
+      Trận Chiến Rzhev (2019)
+     </p>
+     <p class="rating">
+      2 giờ 17 phút
+     </p>
+     <p class="stars">
+      <i class="fas fa-star">
+      </i>
+      <i class="fas fa-star">
+      </i>
+      <i class="fas fa-star">
+      </i>
+      <i class="fas fa-star">
+      </i>
+      <i class="fas fa-star">
+      </i>
+     </p>
+     <div class="tags">
+      <button>
+       Chiến tranh
+      </button>
+      <button>
+       Chính kịch
+      </button>
+     </div>
+     <p>
+      Đạo diễn:
+      <a href="#" style="color: blue;">
+       Igor Kopylov
+      </a>
+     </p>
+     <p>
+      Quốc gia:
+      <a href="#" style="color: blue;">
+       Nga
+      </a>
+     </p>
+     <p>
+      Khởi chiếu:
+      <a href="#" style="color: blue;">
+       12/05/2019
+      </a>
+     </p>
+    </div>
+   </div>
+   <div class="buttons">
+    <button class="share">
+     Chia sẻ
+    </button>
+    <button class="download">
+     Tải xuống
+    </button>
+    <button class="watch">
+     Xem phim
+    </button>
+   </div>
+    <h2>Mô Tả</h2>
+   <div class="description">
+    <p>
+     Bộ phim hành động chiến tranh với nhiều cảnh chiến đấu mãn nhãn, lột tả hết sự khốc liệt và tàn nhẫn của chiến tranh với những con người, những số phận nhỏ bé bị xoáy vào cuộc chiến. Đó là anh chàng Kostya gan dạ nhưng cũng hết sức lém lỉnh, là anh Đại đội trưởng lâu đầu về mạng sống của những người đồng chí dưới quyền chỉ huy của mình, là anh sĩ quan NKVD bướng bỉnh và có phần bảo thủ để rồi bản thân phải hứng chịu số phận nghiệt ngã... Nhưng vượt lên tất cả, đó là tinh thần chiến đấu ngoan cường và đứng mảnh của những người lính Hồng quân trong cuộc chiến tranh Vệ quốc bảo vệ đất mẹ Xô viết. Trận chiến Rzhev- câu chuyện của đại đội Hồng quân Xô viết tại ngôi làng Ovsyannikovo nhỏ bé đã chôn vùi hết gần như toàn bộ quân số của mình nhưng vẫn chiến đấu tới hơi thở cuối cùng để chống lại gót giày phát xít của Đức quốc xã.
+    </p>
+   </div>
+     <h2>Diễn Viên</h2>
+   <div class="cast">
+    <div class="actor">
+     <img alt="Actor Image" height="100" src="https://storage.googleapis.com/a1aa/image/6bI9beeEW3qp6Uxu7bxqlxsxRgSmALpnuYiqVONq6hVF9koTA.jpg" width="100"/>
+     <p>
+      Sergey Zharkov
+     </p>
+    </div>
+    <div class="actor">
+     <img alt="Actor Image" height="100" src="https://storage.googleapis.com/a1aa/image/6bI9beeEW3qp6Uxu7bxqlxsxRgSmALpnuYiqVONq6hVF9koTA.jpg" width="100"/>
+     <p>
+      Ivan Batarev
+     </p>
+    </div>
+    <div class="actor">
+     <img alt="Actor Image" height="100" src="https://storage.googleapis.com/a1aa/image/6bI9beeEW3qp6Uxu7bxqlxsxRgSmALpnuYiqVONq6hVF9koTA.jpg" width="100"/>
+     <p>
+      Oleg Gayanov
+     </p>
+    </div>
+    <div class="actor">
+     <img alt="Actor Image" height="100" src="https://storage.googleapis.com/a1aa/image/6bI9beeEW3qp6Uxu7bxqlxsxRgSmALpnuYiqVONq6hVF9koTA.jpg" width="100"/>
+     <p>
+      Arseny Semenov
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
